@@ -4,12 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEB 2/2020</title>
-
+    
 </head>
 <body>
-    
+    <h1>titulo 1</h1>
+    <h2>titulo 2</h2>
+    <h3>titulo 3</h3>
+    <h4>titulo 4</h4>
+    <h5>titulo 5</h5>
+
+    <div style="border: 1px solid black;">
+    1
+    <br>
+    2
+    </div>
+    <div style="border: 1px solid rgb(123,10,5);">
+    1
+    </div>
+
+    <nav style="border: 1px solid rgb(123,10,5);">
+        <ul>
+            <li>item 1</li>  
+            <li>item 2</li>
+            <li>item 3</li>
+        </ul>
+    </nav>
+
+    <table>
+        <thead style="border: 1px solid black;">
+            <th>cabecera 1</th>
+            <th>cabecera 2</th>
+            <th colspan="2">cabecera 3</th>
+        </thead>
+        <tbody style="border: 1px solid black;">
+            <tr>
+                <td style="border: 1px solid black;" >1</td>
+                <td style="border: 1px solid black;">1</td>
+                <td style="border: 1px solid black;">2</td>
+                <td style="border: 1px solid black;">3</td>
+            </tr>
+            <tr>
+                <td rowspan="2" style="border: 1px solid black;">1</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+        </tbody>
+
+    </table>
 
 
-    
+    <form action="#" mehtod="" >
+        <label for="nombre">Nombre:</label> 
+        <input type="password"  name="nombre" placeholder="Ingrese su nombre">
+        <br>
+        <input type="number">
+        <br>
+        <input type="checkbox" id="ch" name="ch">
+        <input type="checkbox" id="ch" name="ch">
+        <input type="checkbox" id="ch" name="ch">
+        <br>
+        <input type="radio" id="rad" name="rad">
+        <input type="radio" id="rad" name="rad">
+        <input type="radio" id="rad" name="rad">
+        <br>
+        <input type="color">
+        <br>
+        <input type="file">
+        <br>
+        <input type="range" min="1" max="100" step="2">
+        <input type="date">
+        <input type="submit" value="enviar">
+    </form>
+    <span>aqui va el texto largo aqui va el texto largo aqui va el texto largo aqui va el texto largoaqui va el texto largo aqui va el texto largo aqui va el texto largo aqui va el texto largo aqui va el texto largoaqui va el texto largo</span>
 </body>
 </html>
