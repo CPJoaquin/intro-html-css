@@ -4,7 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WEB 2/2020</title>
-    
+    <link rel="stylesheet" href="style.css">
+    <style>
+        td{
+            border: 2px solid green;
+        }
+        #primero{
+            background: greenyellow;
+        }
+        .clas{
+            background: red;
+        }
+    </style>
 </head>
 <body>
     <h1>titulo 1</h1>
@@ -18,7 +29,7 @@
     <br>
     2
     </div>
-    <div style="border: 1px solid rgb(123,10,5);">
+    <div class="clas">
     1
     </div>
 
@@ -38,18 +49,18 @@
         </thead>
         <tbody style="border: 1px solid black;">
             <tr>
-                <td style="border: 1px solid black;" >1</td>
-                <td style="border: 1px solid black;">1</td>
-                <td style="border: 1px solid black;">2</td>
-                <td style="border: 1px solid black;">3</td>
+                <td  id="primero">1</td>
+                <td >1</td>
+                <td >2</td>
+                <td >3</td>
             </tr>
             <tr>
-                <td rowspan="2" style="border: 1px solid black;">1</td>
+                <td rowspan="2" >1</td>
                 <td>1</td>
                 <td>2</td>
                 <td>3</td>
             </tr>
-            <tr>
+            <tr class="clas">
                 <td>1</td>
                 <td>2</td>
                 <td>3</td>
@@ -60,24 +71,24 @@
 
 
     <form action="#" mehtod="" >
-        <label for="nombre">Nombre:</label> 
+        <label  class="clas"for="nombre">Nombre:</label> 
         <input type="password"  name="nombre" placeholder="Ingrese su nombre">
         <br>
-        <input type="number">
+        <input  class="clas" type="number">
         <br>
         <input type="checkbox" id="ch" name="ch">
         <input type="checkbox" id="ch" name="ch">
         <input type="checkbox" id="ch" name="ch">
         <br>
         <input type="radio" id="rad" name="rad">
-        <input type="radio" id="rad" name="rad">
+        <input class="clas" type="radio" id="rad" name="rad">
         <input type="radio" id="rad" name="rad">
         <br>
         <input type="color">
         <br>
         <input type="file">
         <br>
-        <input type="range" min="1" max="100" step="2">
+        <input class="clas"  type="range" min="1" max="100" step="2">
         <input type="date">
         <input type="submit" value="enviar">
     </form>
